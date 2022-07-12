@@ -1,0 +1,1500 @@
+    body {
+        margin: 0;
+        background: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    a {
+        border: none;
+        outline: none;
+        text-decoration: none;
+    }
+    
+    img {
+        border: none;
+        outline: none;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        margin: 0;
+    }
+    
+    button {
+        background-color: transparent;
+    }
+    
+    .max_width {
+        margin: 0 auto;
+        max-width: 1920px;
+    }
+    
+    .wrap {
+        margin: 0 auto;
+        max-width: 1170px;
+    }
+    /* NAV */
+    
+    .flex_nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4px;
+    }
+    
+    .flex_logo {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 44px 0 28px;
+    }
+    
+    .span_h2_logo {
+        max-width: 140px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16.8px;
+        margin-left: -2px;
+        letter-spacing: 0.6px;
+    }
+    
+    .span_h2_logo span {
+        margin-top: 5px;
+        margin-left: 0px;
+        display: block;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: -0.8px;
+        margin-bottom: 11px;
+    }
+    
+    .span_h2_info span {
+        display: block;
+        font-weight: 700;
+    }
+    
+    .span_h2_info {
+        margin: 27px 53px 0 7px;
+        line-height: 38.4px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        letter-spacing: -0.8px;
+        padding-left: 9px;
+    }
+    
+    .span_h2_info span {
+        display: block;
+        font-weight: 700;
+        letter-spacing: 0px;
+    }
+    
+    .span_h2_info h2 {
+        display: block;
+        font-weight: 400;
+    }
+    
+    .logo_poligon {
+        background-image: url(../img/logo_poligon.svg);
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        max-width: 100px;
+        background-size: 85%;
+        margin-left: -2px;
+    }
+    
+    .nav_number {
+        color: #F9B024;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        margin: 32px 142px 0 4px;
+        letter-spacing: -0.2px;
+    }
+    
+    .button {
+        background-color: #D93636;
+        color: white;
+        border: #D93636;
+        border-radius: 30px;
+        padding: 18px 36px 32px 37px;
+        height: 30px;
+        font-family: 'Rubik';
+        font-weight: 500;
+        margin: 39px 26px 0 -41px;
+        letter-spacing: 0.2px;
+        display: block;
+    }
+    
+    .button:hover {
+        background-color: #FB5050;
+        border: #FB5050;
+    }
+    
+    .flex_icon_nav {
+        display: flex;
+        justify-content: left;
+        margin-left: 5px;
+    }
+    
+    .icon_vk {
+        background-image: url(../img/vk.svg);
+        height: 50px;
+        width: 40px;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        margin-right: -2px;
+    }
+    
+    .icon_vk:hover {
+        background-image: url(../img/vkhover_icon.svg);
+    }
+    
+    .icon_ytb:hover {
+        background-image: url(../img/vkhover_icon\ youtube.svg);
+    }
+    
+    .icon_odn:hover {
+        background-image: url(../img/Group\ 2odnoclas_icon.svg);
+        background-size: 80%;
+        margin-left: 2px;
+        margin-right: -2px;
+    }
+    
+    .icon_inst:hover {
+        background-image: url(../img/instagramicon_insta.svg);
+        background-size: 80%;
+        margin-left: 1px;
+    }
+    
+    .icon_ytb {
+        background-image: url(../img/youtube.svg);
+        height: 50px;
+        width: 40px;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        margin-right: -6px;
+    }
+    
+    .icon_odn {
+        background-image: url(../img/odniklassniki.svg);
+        height: 50px;
+        width: 40px;
+        background-size: 94%;
+        background-repeat: no-repeat;
+    }
+    
+    .icon_inst {
+        background-image: url(../img/instagram.svg);
+        height: 50px;
+        width: 40px;
+        background-size: 95%;
+        background-repeat: no-repeat;
+        margin-left: -2px;
+    }
+    /* END NAV */
+    /* MENU */
+    
+    .menu {
+        background: #34A5E5;
+        padding: 19px 0 0;
+        max-width: 1348px;
+        margin: 0 auto;
+    }
+    
+    .menu_flex {
+        display: flex;
+        justify-content: left;
+        margin-left: 127px;
+    }
+    
+    .elem_menu {
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-right: 94px;
+        padding-bottom: 16px;
+        border-bottom: 3px solid #34A5E5;
+    }
+    
+    .menu_flex .elem_menu:hover {
+        color: #ABE0FE;
+        border-bottom: 3px solid #fff;
+    }
+    /* END MENU */
+    /* WINDOW 1 */
+    
+    .window-1 {
+        background-image: url(../img/image\ 2.png);
+        padding: 270px 0 0 0;
+        max-width: 1348px;
+        margin: 0 auto;
+        background-position: center 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .window-1-flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 127px;
+    }
+    
+    .window-h2 {
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 41.6px;
+        margin-top: -150px;
+        letter-spacing: 0.7px;
+        margin-bottom: -49px;
+    }
+    
+    .window-h3 {
+        text-transform: uppercase;
+        color: #F9B024;
+        font-family: 'Rubik', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        line-height: 67.6px;
+    }
+    
+    .window-p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size: 21px;
+        font-weight: 300;
+        letter-spacing: -0.2px;
+        max-width: 630px;
+        margin-top: -37px;
+        line-height: 28.4px;
+    }
+    
+    .flex_pagination {
+        display: flex;
+        justify-content: space-between;
+        max-width: 672px;
+    }
+    
+    .flex_strelki {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100px;
+    }
+    
+    .left {
+        width: 143px;
+        background-image: url(../img/стрелка\ влево.svg);
+        background-repeat: no-repeat;
+        margin-left: -2px;
+        margin-top: 41px;
+        padding: 30px;
+        margin-right: 19px;
+    }
+    
+    .left:hover {
+        background-image: url(../img/стрелка\ влевоhover_left_arrow.svg);
+    }
+    
+    .right {
+        width: 100px;
+        height: 100px;
+        background-image: url(../img/стрелка\ вправо.svg);
+        margin-left: 0px;
+        padding: 46px;
+        margin-top: 54px;
+        background-repeat: no-repeat;
+    }
+    
+    .right:hover {
+        background-image: url(../img/стрелка\ вправоhover_right_arrow.svg);
+    }
+    
+    .pagination {
+        width: 200px;
+        height: 50px;
+        background-image: url(../img/пагинация.svg);
+        background-repeat: no-repeat;
+        margin-top: 49px;
+        margin-right: -8px;
+        background-size: 74%;
+    }
+    /* END WINDOW 1 */
+    /* START TAKE_PHOTO */
+    
+    .take-photo {
+        background-color: #84AF5A;
+        padding: 224px 0 0 0;
+        max-width: 1348px;
+        margin: -54px auto;
+        width: 1440px;
+        background-position: center 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .photo-take-photo {
+        background-image: url(../img/фото.png);
+        width: 1090px;
+        height: 224px;
+        margin: -170px 285px;
+        background-repeat: no-repeat;
+        background-size: 95%;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .flex_photo {
+        margin: -191px auto 0;
+        max-width: 980px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .icon_scope {
+        background-image: url(../img/мишень\ иконка.svg);
+        width: 160px;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1;
+        margin-right: 83px;
+        background-size: 98%;
+    }
+    
+    .back_scope {
+        position: absolute;
+        background-image: url(../img/мишень\ фон.svg);
+        width: 220px;
+        height: 220px;
+        z-index: 0;
+        background-size: 92%;
+        margin: -169px -37px 5px 484px;
+    }
+    
+    .photo_h2_h3 {
+        z-index: 1;
+        margin: 30px -37px 0 -152px;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        letter-spacing: -0.5px;
+        line-height: 13.1px;
+    }
+    
+    .photo_button {
+        z-index: 1;
+        background-color: #D93636;
+        color: white;
+        border: #D93636;
+        border-radius: 30px;
+        padding: 22px 48px 41px 48px;
+        height: 30px;
+        font-family: 'Rubik';
+        font-weight: 400;
+        margin: 50px -111px 0 -31px;
+        letter-spacing: -0.8px;
+        display: block;
+        font-size: 16px;
+    }
+    /* END TAKE_PHOTO */
+    /* START WHY LAZERTAG? */
+    
+    .why_lazertag {
+        display: flex;
+        max-width: 1348px;
+        margin: 31px auto;
+        justify-content: space-between;
+        max-height: 2000px;
+    }
+    
+    .line {
+        z-index: 1;
+        position: absolute;
+        max-height: 188px;
+        margin: -55px -4px 0 679px;
+    }
+    
+    .line1 {
+        max-height: 188px;
+        position: absolute;
+        margin: 343px 140px -56px 70px;
+    }
+    
+    .text_lazertag {
+        max-width: 574px;
+        text-align: left;
+        margin: 100px 0 0 100px;
+    }
+    
+    .photo_lazertag {
+        background-image: url(../img/image\ 3.png);
+        width: 835px;
+        height: 531px;
+        background-repeat: no-repeat;
+        margin-right: -141px;
+        margin-left: 72px;
+        background-size: 81%;
+    }
+    
+    .h2_span {
+        color: #84AF5A;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+        text-transform: uppercase;
+        margin: -10px 0 0 25px;
+        letter-spacing: -2px;
+    }
+    
+    .h2_span span {
+        display: block;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+        color: #252724;
+        text-transform: uppercase
+    }
+    
+    .p_lazertag {
+        font-family: 'Fira Sans', sans-serif;
+        color: #252724;
+        font-size: 18px;
+        font-weight: 300;
+        max-width: 676px;
+        margin: 46px 1px -18px 35px;
+        letter-spacing: -0.54px;
+        line-height: 24.5px;
+    }
+    /* END WHY LAZERTAG? */
+    /* START INFO LAZERTAG */
+    
+    .info_lazertag {
+        background-image: url(../img/подложка.png);
+        height: 297px;
+        width: 1920px;
+        max-width: 1348px;
+        margin: -31px auto;
+        background-size: 100%;
+        display: flex;
+    }
+    
+    .color1 {
+        flex-basis: 205px;
+        background: rgba(52, 165, 230, 0.5);
+    }
+    
+    .color1:hover {
+        background: rgba(52, 165, 230, 1);
+        height: 310px;
+        width: 226px;
+        z-index: 1;
+        padding: 0 10px 0;
+        margin-top: -15px;
+        padding-top: 15px;
+    }
+    
+    .color2 {
+        flex-basis: 205px;
+        background: rgba(83, 182, 238, 0.5);
+    }
+    
+    .color2:hover {
+        background: rgba(83, 182, 238, 1);
+        height: 310px;
+        width: 226px;
+        z-index: 1;
+        padding: 0 10px 0;
+        margin-top: -15px;
+        padding-top: 15px;
+    }
+    
+    .icon_info {
+        width: 76px;
+        height: 94px;
+        border-radius: 50px;
+        opacity: 1;
+        margin: 47px 0 0 62px;
+        background-size: 95%;
+    }
+    
+    .age {
+        position: absolute;
+        background-image: url(../img/иконкаage.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .plays {
+        position: absolute;
+        background-image: url(../img/иконкаplays.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .scope {
+        position: absolute;
+        background-image: url(../img/иконкаscope.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .like_info {
+        position: absolute;
+        background-image: url(../img/иконкаlike.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .guns_info {
+        position: absolute;
+        background-image: url(../img/иконкаguns.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .flags {
+        position: absolute;
+        background-image: url(../img/иконкаflag.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .guns_info {
+        position: absolute;
+        background-image: url(../img/иконкаguns.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .maps_info {
+        position: absolute;
+        background-image: url(../img/иконкаmaps.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .h2_span_info {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
+        max-width: 180px;
+        margin-left: 7px;
+    }
+    
+    .h2_span_info span {
+        display: block;
+        margin-top: 144px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        margin-bottom: 14px;
+        font-size: 38px;
+    }
+    
+    .s {
+        max-width: 120px;
+        margin-left: 35px;
+    }
+    /* END INFO LAZERTAG */
+    /* START SELECT MAPS */
+    
+    .select_maps {
+        background-image: url(../img/подложка_площадки.png);
+        height: 688px;
+        width: 1920px;
+        max-width: 1348px;
+        margin: 31px auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .select_maps_h2_span {
+        letter-spacing: -1.3px;
+        font-size: 32px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: -49px;
+    }
+    
+    .select_maps_h2_span span {
+        font-size: 46px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        padding-top: 88px;
+        margin-left: 19px;
+        letter-spacing: -2px;
+        display: block;
+    }
+    
+    .flex_maps {
+        margin: 0 auto;
+        display: flex;
+        max-width: 1100px;
+        justify-content: center;
+    }
+    
+    .maps1 {
+        background-image: url(../img/площадка1.svg);
+        background-repeat: no-repeat;
+        width: 390px;
+        height: 270px;
+        background-size: 94%;
+        margin: 41px 11px 0 4px;
+    }
+    /* .maps1:hover {
+    background-image: url(../img/Group\ 3hover_maps1.svg
+);
+    background-size: 101%;
+} */
+    
+    .maps1:hover {
+        background-image: url(../img/фотоhover.svg);
+        background-repeat: no-repeat;
+        /* width: 390px;
+    height: 270px;
+    background-size: 94%; */
+    }
+    
+    .maps1:hover .points- {
+        background-image: url(../img/pointer_hover.svg);
+        background-size: 86%;
+        margin-top: -25px;
+    }
+    
+    .maps1:hover .name_maps {
+        color: #F9B024;
+        -webkit-text-stroke: 1px black;
+        /* transition: .5s; */
+    }
+    
+    .maps1:hover .name_maps_line {
+        /* transition: .5s; */
+        background-color: #F9B024;
+        border: 1px solid black;
+    }
+    
+    .name_maps_line {
+        content: '';
+        margin-left: 13px;
+        width: 136px;
+        height: 2px;
+        background-color: transparent;
+        border: 1px solid transparent;
+    }
+    
+    .maps1>.points- {
+        position: absolute;
+        background-image: url(../img/pointer.svg);
+        width: 400px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin: -19px 0px 0 12px;
+        background-size: 84.5%;
+    }
+    
+    .maps2 {
+        background-image: url(../img/площадка2.svg);
+        background-repeat: no-repeat;
+        width: 390px;
+        background-size: 94%;
+        margin: 41px 11px 0 4px;
+    }
+    
+    .maps2:hover {
+        background-image: url(../img/фотоhover1.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .maps2:hover .points- {
+        background-image: url(../img/pointer_hover.svg);
+        background-size: 86%;
+        margin-top: -25px;
+    }
+    
+    .maps2:hover .name_maps {
+        color: #F9B024;
+        -webkit-text-stroke: 1px black;
+        /* transition: .5s; */
+    }
+    
+    .maps2:hover .name_maps_line {
+        /* transition: .5s; */
+        background-color: #F9B024;
+        border: 1px solid black;
+    }
+    
+    .maps2>.points- {
+        position: absolute;
+        background-image: url(../img/pointer.svg);
+        width: 400px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin: -19px 0px 0 17px;
+        background-size: 84.5%;
+    }
+    
+    .maps3 {
+        background-image: url(../img/площадка3.svg);
+        background-repeat: no-repeat;
+        width: 390px;
+        height: 270px;
+        background-size: 94%;
+        margin: 41px -7px 0 14px;
+    }
+    
+    .maps3:hover {
+        background-image: url(../img/фотоhover2.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .maps3:hover .points- {
+        background-image: url(../img/pointer_hover.svg);
+        background-size: 86%;
+        margin-top: -25px;
+    }
+    
+    .maps3:hover .name_maps {
+        color: #F9B024;
+        -webkit-text-stroke: 1px black;
+        /* transition: .5s; */
+    }
+    
+    .maps3:hover .name_maps_line {
+        /* transition: .5s; */
+        background-color: #F9B024;
+        border: 1px solid black;
+    }
+    
+    .maps3>.points- {
+        position: absolute;
+        background-image: url(../img/pointer.svg);
+        width: 400px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin: -19px 0px 0 12px;
+        background-size: 84.5%;
+    }
+    
+    .name_maps {
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 203px 0 0 12px;
+    }
+    
+    .flex_see_more {
+        display: flex;
+        justify-content: space-between;
+        margin: -2px auto;
+        max-width: 1095px;
+    }
+    
+    .button_see_more {
+        background-color: #D93636;
+        color: white;
+        border: #D93636;
+        border-radius: 30px;
+        text-transform: uppercase;
+        padding: 23px 71px 39px 71px;
+        height: 30px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        margin: 0 0 0 0;
+        letter-spacing: -0.8px;
+        font-size: 16px;
+    }
+    
+    .flex_icon_more {
+        display: flex;
+    }
+    
+    .icon_more {
+        background-image: url(../img/иконка.svg);
+        width: 80px;
+        height: 80px;
+        margin: -5px 0px 0 0px;
+        background-size: 94%;
+        background-repeat: no-repeat;
+    }
+    
+    .a_more {
+        color: #34A5E5;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin: 4px 8px 1px 9px;
+        border-bottom: 1px solid #34A5E5;
+        padding-bottom: 1px;
+    }
+    
+    .a_more:hover {
+        color: #000;
+        border-bottom: 0px;
+    }
+    
+    .h2_more {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 6px 0 6px 8px;
+        letter-spacing: -1.2px;
+    }
+    /* END SELECT MAPS */
+    /* START HOW MANY GUNS */
+    
+    .big_inventory_gun {
+        background-color: white;
+        height: 471px;
+        width: 1920px;
+        max-width: 1348px;
+        margin: 31px auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .flex_h2_div_gun {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    
+    .icon_scope_gun {
+        background-image: url(../img/иконкаscope_gun.svg);
+        width: 40px;
+        height: 40px;
+        margin: 3px 3px 0 -1px;
+        background-size: 62%;
+        background-repeat: no-repeat;
+    }
+    
+    .h2_so_more_gun {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+        text-transform: uppercase;
+        letter-spacing: -2px;
+    }
+    
+    .flex_h2_div_gun>.flex_icon_more {
+        margin: 50px 0 0 0;
+    }
+    
+    .flex_h2_div_gun>.flex_icon_more a {
+        color: #000;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        margin: 7px 0px 0 -9px;
+        letter-spacing: -0.7px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #34A5E5;
+        margin-bottom: 55px;
+    }
+    
+    .flex_icon_more a:hover {
+        color: #34A5E5;
+        border-bottom: 0px;
+    }
+    
+    .flex_gun {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: -27px auto;
+    }
+    
+    .falcon {
+        background-image: url(../img/falcon.png);
+        background-repeat: no-repeat;
+        width: 390px;
+        height: 54px;
+        background-size: 97%;
+        margin: 35px 5px 0 -4px;
+        padding: 283px 0 0px 30px;
+        display: flex;
+    }
+    
+    .plus_hover {
+        display: none;
+        background-image: url(../img/Group\ 5hover_plus.svg);
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+    }
+    
+    .falcon:hover {
+        background-image: url(../img/Group\ 5hover_lazertag.svg);
+    }
+    
+    .falcon:hover .plus_hover {
+        display: inline;
+    }
+    
+    .falcon:hover .name_gun {
+        margin-left: 35px;
+        color: #34A5E5;
+    }
+    
+    .vintorez {
+        background-image: url(../img/vintorez.png);
+        background-repeat: no-repeat;
+        width: 390px;
+        background-size: 97%;
+        margin: 37px -7px 0 9px;
+        padding: 281px 0 0px 27px;
+        display: flex;
+    }
+    
+    .vintorez:hover {
+        background-image: url(../img/Group\ 5hover_vintorez.svg);
+    }
+    
+    .vintorez:hover .plus_hover {
+        display: inline;
+    }
+    
+    .vintorez:hover .name_gun {
+        margin-left: 35px;
+        color: #34A5E5;
+    }
+    
+    .acm {
+        background-image: url(../img/akm.png);
+        background-repeat: no-repeat;
+        width: 390px;
+        background-size: 97%;
+        margin: 36px -9px 0 19px;
+        padding: 282px 0 0px 30px;
+        display: flex;
+    }
+    
+    .acm:hover {
+        background-image: url(../img/Group\ 6hover_akm.svg);
+    }
+    
+    .acm:hover .plus_hover {
+        display: inline;
+    }
+    
+    .acm:hover .name_gun {
+        margin-left: 35px;
+        color: #34A5E5;
+    }
+    
+    .name_gun {
+        color: black;
+        position: absolute;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 0 0 0 0;
+        letter-spacing: -0.8px;
+    }
+    /* END HOW MANY GUNS */
+    /* START PRICE */
+    
+    .flex_main_price {
+        display: flex;
+        background-image: url(../img/подложкаprive.png);
+        height: 688px;
+        width: 1920px;
+        max-width: 1348px;
+        margin: 92px auto 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .photo_price {
+        background-image: url(../img/фотоphoto_price.png);
+        height: 688px;
+        width: 801px;
+        max-width: 1348px;
+        margin: -1px 0 0 0;
+        background-size: 82.5%;
+        background-repeat: no-repeat;
+    }
+    
+    .icons_prices {
+        margin: 64px 0px 0 -83px;
+    }
+    
+    .marg {
+        margin-left: -15px;
+        display: flex;
+    }
+    
+    .icon_price1 {
+        background-image: url(../img/icon_price1.svg    );
+        height: 95px;
+        width: 95px;
+        background-size: 108.5%;
+        background-repeat: no-repeat;
+        margin-bottom: -2px;
+    }
+    
+    .icon_price2 {
+        background-image: url(../img/icon_price2.svg    );
+        height: 95px;
+        width: 95px;
+        background-size: 108.5%;
+        background-repeat: no-repeat;
+        margin-bottom: -1px;
+    }
+    
+    .icon_price3 {
+        background-image: url(../img/icon_price3.svg    );
+        height: 95px;
+        width: 95px;
+        background-size: 108.5%;
+        background-repeat: no-repeat;
+        margin-bottom: -2px;
+    }
+    
+    .icon_price4 {
+        background-image: url(../img/icon_price4.svg    );
+        height: 95px;
+        width: 95px;
+        background-size: 108.5%;
+        background-repeat: no-repeat;
+        margin-bottom: 36px;
+    }
+    
+    .button_check_price {
+        background-color: #D93636;
+        color: white;
+        border: #D93636;
+        border-radius: 30px;
+        text-transform: uppercase;
+        padding: 24px 41px 39px 44px;
+        height: 30px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        margin: 0 0 0 0;
+        letter-spacing: -1.0px;
+        font-size: 16px;
+    }
+    
+    .h2_price span {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        text-transform: uppercase;
+        margin: 32px 0 -25px 23px;
+        letter-spacing: 1.4px;
+        display: block;
+    }
+    
+    .h2_price h2 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 10px;
+    }
+    
+    .g2_span {
+        margin: 30px 0 0 22px;
+    }
+    
+    .g2_span span {
+        margin: -20px 0 0 0;
+        line-height: 51px;
+    }
+    /* END PRICE */
+    /* START PHOTO_GALERY */
+    
+    .photo_galery_main {
+        width: 1920px;
+        max-width: 1348px;
+        margin: -25px auto 0px;
+    }
+    
+    .galery_photo {
+        display: flex;
+        margin: 11px 0px 0px 125px;
+    }
+    
+    .first_photo {
+        background-image: url(../img/1first_image.png);
+        height: 445px;
+        width: 300px;
+        background-size: 84.5%;
+        background-repeat: no-repeat;
+    }
+    
+    .second_photo {
+        background-image: url(../img/1second_image.png);
+        height: 234px;
+        width: 300px;
+        background-size: 84.5%;
+        background-repeat: no-repeat;
+        margin-left: -18px;
+    }
+    
+    .third_photo {
+        background-image: url(../img/1third_image.png);
+        height: 209px;
+        width: 300px;
+        background-size: 84.5%;
+        background-repeat: no-repeat;
+        margin-left: -18px;
+    }
+    
+    .four_photo {
+        background-image: url(../img/1four_image.png);
+        height: 235px;
+        width: 300px;
+        background-size: 84.5%;
+        background-repeat: no-repeat;
+        margin-left: -20px;
+    }
+    
+    .five_photo {
+        background-image: url(../img/1fife_image.png);
+        height: 209px;
+        width: 300px;
+        background-size: 84.5%;
+        background-repeat: no-repeat;
+        margin-left: -19px;
+    }
+    
+    .six_photo {
+        background-image: url(../img/1six_image.png);
+        height: 443px;
+        width: 300px;
+        background-size: 84.5%;
+        background-repeat: no-repeat;
+        margin-left: -19px;
+    }
+    /* END PHOTO_GALERY */
+    /* START VIDEO */
+    
+    .video {
+        margin: 43px auto 48px;
+    }
+    
+    .video .flex_h2_div_gun>.flex_icon_more a {
+        border-bottom: 0px solid #34A5E5;
+        margin: -6px -11px 0 7px;
+    }
+    
+    .left_check {
+        background-image: url(../img/стрелкаBlueвлево.png);
+        background-size: 75%;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+    }
+    
+    .left_check:hover {
+        background-image: url(../img/стрелка\ влевоhover_left.svg)
+    }
+    
+    .right_check {
+        background-image: url(../img/стрелкаBlueправо.png);
+        width: 60px;
+        height: 60px;
+        background-size: 75%;
+        background-repeat: no-repeat;
+    }
+    
+    .right_check:hover {
+        background-image: url(../img/стрелка\ вправоhover_right.svg);
+    }
+    
+    .flex_video {
+        display: flex;
+        margin: 12px 0 0 120px;
+    }
+    
+    .first-video {
+        background-image: url(../img/отзыв.png);
+        width: 380px;
+        height: 252px;
+        background-size: 91%;
+        background-repeat: no-repeat;
+        margin: 0px 0 3px 7px;
+    }
+    
+    .first-video:hover {
+        background-image: url(../img/отзывhover1.svg);
+    }
+    
+    .second-video {
+        background-image: url(../img/1отзыв.png);
+        width: 380px;
+        height: 251px;
+        background-size: 91%;
+        background-repeat: no-repeat;
+        margin: 1px -7px 0 -6px;
+    }
+    
+    .second-video:hover {
+        background-image: url(../img/Group\ 6hover2.svg);
+    }
+    
+    .third-video {
+        background-image: url(../img/2отзыв.png);
+        width: 380px;
+        height: 251px;
+        background-size: 91%;
+        background-repeat: no-repeat;
+    }
+    
+    .third-video:hover {
+        background-image: url(../img/Group\ 6hover3.svg);
+    }
+    
+    .ul_point {
+        display: flex;
+        margin: 25px 0 0 616px;
+    }
+    
+    .ul_point>li {
+        background-color: #252724;
+        opacity: 0.2;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        border: 2px solid white;
+        margin: 0 2px;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0 5.5px;
+    }
+    
+    .ul_point>li:hover {
+        padding: 0;
+        opacity: 1;
+        width: 12px;
+        height: 12px;
+        border: 0;
+    }
+    /* END VIDEO */
+    /* START ORDER */
+    
+    .order {
+        background-image: url(../img/back+patern.png);
+        margin: 47px auto 24px;
+        max-width: 1348px;
+        background-repeat: no-repeat;
+        padding: 18px 0;
+        background-size: 100%;
+    }
+    
+    .flex_ordered {
+        max-width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 124px;
+    }
+    
+    .flex_ordered span {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 134%;
+        text-transform: uppercase;
+        color: #252724;
+        display: block;
+        margin: 0 0 -3px 1px;
+    }
+    
+    .flex_ordered h2 {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 134%;
+        text-transform: uppercase;
+        color: #F9B024;
+        margin-left: 2px;
+        letter-spacing: -1.5px;
+    }
+    
+    .img_arrows {
+        background-image: url(..//img/Group\ 2some.svg);
+        width: 110px;
+        height: 69px;
+        background-repeat: no-repeat;
+        background-size: 96%;
+        margin: 33px 10px 0 0px;
+    }
+    
+    .ordered_play {
+        background-color: #D93636;
+        color: white;
+        border: #D93636;
+        border-radius: 58px;
+        text-transform: uppercase;
+        padding: 21px 117px 43px 115px;
+        height: 30px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        margin: 36px 2px 0 0px;
+        letter-spacing: -1.0px;
+        font-size: 16px;
+    }
+    /* END ORDER */
+    /* START FOOTER */
+    
+    .footer .flex_nav {
+        margin: 50px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer .span_h2_logo {
+        max-width: 140px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin: -15px 0 0 -20px;
+        letter-spacing: 0.1px;
+    }
+    
+    .footer .span_h2_logo span {
+        display: block;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: 0px;
+        margin: 0 0 0 0;
+    }
+    
+    .footer .span_h2_info {
+        margin: -3px 33px 0 -28px;
+        line-height: 30.4px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        padding-left: 9px;
+        font-size: 18px;
+    }
+    
+    .footers {
+        margin: -6px 0 0 45px;
+    }
+    
+    .footers a {
+        background-size: 87%;
+    }
+    
+    .footer .span_h2_info span {
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 21px;
+    }
+    
+    .footer .logo_poligon {
+        background-size: 67%;
+        margin: -28px 0 0 11px;
+    }
+    
+    .footer .nav_number {
+        color: #F9B024;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        margin: -1px 6px -11px -2px;
+        letter-spacing: 0.8px;
+    }
+    
+    .h2_city {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 110%;
+        /* or 20px */
+        /* текст/черный */
+        color: #252724;
+    }
+    
+    .a_footer {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 160%;
+        /* or 22px */
+        text-align: right;
+        /* текст/черный */
+        color: #252724;
+        margin: 0px 11px 0 0;
+    }
+    
+    .footers .icon_vk {
+        margin-right: 3px;
+    }
+    
+    .footers .icon_ytb {
+        margin-right: 5px;
+    }
+    
+    .footers .icon_odn {
+        background-image: url(../img/odniklassnikifooter_logo.svg);
+        height: 50px;
+        width: 40px;
+        background-size: 92%;
+        background-repeat: no-repeat;
+        margin-right: 7px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .footers .icon_inst {
+        background-image: url(../img/instagramfooter_logo.svg);
+        height: 50px;
+        width: 40px;
+        background-size: 92%;
+        background-repeat: no-repeat;
+    }
+    
+    .footer_img {
+        background-image: url(../img/разработчикlogo_al+.svg);
+        width: 60px;
+        height: 60px;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        margin: -7px 23px 0 0;
+    }
+    
+    .footers .icon_odn:hover {
+        background-image: url(../img/Group\ 2odnoclas_icon.svg);
+        background-size: 94%;
+        margin-right: 5px;
+    }
+    
+    .footers .icon_inst:hover {
+        background-image: url(../img/instagramicon_insta.svg);
+        background-size: 90%;
+        margin-left: -1px;
+    }
+    
+    .flex:hover .footer_img {
+        background-image: url(../img/логотип\ Альянсhover.svg);
+    }
+    /* END FOOTER */
