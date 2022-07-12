@@ -840,11 +840,6 @@
         padding-bottom: 1px;
     }
     
-    .a_more:hover {
-        color: #000;
-        border-bottom: 0px;
-    }
-    
     .h2_more {
         font-family: 'Rubik', sans-serif;
         font-weight: 500;
@@ -907,7 +902,7 @@
     }
     
     .flex_icon_more a:hover {
-        color: #34A5E5;
+        color: #000;
         border-bottom: 0px;
     }
     
